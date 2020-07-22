@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3E2FA824C8891D002144FC /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E2FA724C8891D002144FC /* CoinManager.swift */; };
+		9D3E2FAA24C8C1F0002144FC /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E2FA924C8C1F0002144FC /* CoinData.swift */; };
 		9D82A04824C7B1D800361635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82A04724C7B1D800361635 /* AppDelegate.swift */; };
 		9D82A04A24C7B1D800361635 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82A04924C7B1D800361635 /* SceneDelegate.swift */; };
 		9D82A04C24C7B1D800361635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82A04B24C7B1D800361635 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D3E2FA724C8891D002144FC /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		9D3E2FA924C8C1F0002144FC /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 		9D82A04424C7B1D800361635 /* Bitcoin Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bitcoin Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D82A04724C7B1D800361635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D82A04924C7B1D800361635 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D3E2FA624C88908002144FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D3E2FA724C8891D002144FC /* CoinManager.swift */,
+				9D3E2FA924C8C1F0002144FC /* CoinData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9D82A03B24C7B1D800361635 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		9D82A04624C7B1D800361635 /* Bitcoin Price */ = {
 			isa = PBXGroup;
 			children = (
+				9D3E2FA624C88908002144FC /* Model */,
 				9D82A04724C7B1D800361635 /* AppDelegate.swift */,
 				9D82A04924C7B1D800361635 /* SceneDelegate.swift */,
 				9D82A04B24C7B1D800361635 /* ViewController.swift */,
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D3E2FA824C8891D002144FC /* CoinManager.swift in Sources */,
 				9D82A04C24C7B1D800361635 /* ViewController.swift in Sources */,
+				9D3E2FAA24C8C1F0002144FC /* CoinData.swift in Sources */,
 				9D82A04824C7B1D800361635 /* AppDelegate.swift in Sources */,
 				9D82A04A24C7B1D800361635 /* SceneDelegate.swift in Sources */,
 			);
